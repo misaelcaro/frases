@@ -1,0 +1,73 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  width: 100%;
+  
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quotebox {
+  background-color: white;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  max-width: 90%;
+  font-size: 2rem;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+ 
+ 
+
+}
+.quotebox > i {
+  font-size: 5rem;
+  
+}
+
+@media (min-width: 900px) {
+  .quotebox {
+    max-width: 800px;
+  }
+}
+
+.quotebox-footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  
+  align-items: center;
+
+}
+
+.quotebox-footer button{
+  border: none;
+  font-size: 2rem;
+  color: white;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  cursor: pointer;
+
+}
+
+.quotebox-footer > i{
+  font-size: 3rem;
+
+}
